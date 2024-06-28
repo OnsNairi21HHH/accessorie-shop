@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+  }
+  
+  .cart-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top:70px ;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 8px;
+    border-color:rgb(8, 117, 35) ;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #174e2c;
+    padding: 10px 0;
+  }
+  
+  .item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .item-info h2 {
+    margin-right: 10px;
+    color:rgb(5, 51, 24);
+  }
+  .cart-container h1{
+    color:rgb(5, 51, 24);
+
+
+
+  }
+  .like-btn {
+    cursor: pointer;
+    background:none;
+    border-radius:none;
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(10, 148, 63);
+  }
+  
+  .like-btn.liked {
+    color: rgb(10, 148, 63);
+  }
+  
+  .delete-btn {
+    cursor: pointer;
+    background: lightgreen;
+    border-radius:2px ;
+    font-size: 16px;
+    color: rgb(10, 148, 63);
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+
+
+
+  
+  .quantity-controls button {
+    cursor: pointer;
+    padding: 5px;
+    margin: 0 5px;
+    background-color:lightgreen ;
+  }
+  
+  .item-price {
+    font-size: 18px;
+    color:rgb(10, 148, 63);
+  }
+  
+  .total-price {
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+    color:#174e2c;
+  }
