@@ -10,6 +10,12 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const itemImage = document.createElement("img");
         itemImage.src = item.name;
+<<<<<<< HEAD
+=======
+        itemImage.style.width = "400px";
+        itemImage.style.height = "400px";
+        itemImage.style.objectFit = "contain";
+>>>>>>> 4566c1ca563bda9b7f629fd61085a403351b6e03
         
         const itemPrice = document.createElement("p");
         itemPrice.innerText = item.price;
