@@ -7,22 +7,25 @@ document.addEventListener("DOMContentLoaded", function() {
     cart.forEach(item => {
         const itemDiv = document.createElement("div");
         itemDiv.classList.add("cart-item");
-        
+
+        // Apply Flexbox to align items horizontally
+        itemDiv.style.display = "flex";
+        itemDiv.style.alignItems = "center"; // Align items vertically centered
+        itemDiv.style.marginBottom = "10px"; // Add some space between items
+
         const itemImage = document.createElement("img");
         itemImage.src = item.name;
-<<<<<<< HEAD
-=======
         itemImage.style.width = "400px";
         itemImage.style.height = "400px";
         itemImage.style.objectFit = "contain";
->>>>>>> 4566c1ca563bda9b7f629fd61085a403351b6e03
-        
+
         const itemPrice = document.createElement("p");
         itemPrice.innerText = item.price;
-        
+        itemPrice.style.marginLeft = "20px"; // Add some space between image and price
+
         itemDiv.appendChild(itemImage);
         itemDiv.appendChild(itemPrice);
-        
+
         cartItemsContainer.appendChild(itemDiv);
     });
 
