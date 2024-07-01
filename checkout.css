@@ -1,0 +1,35 @@
+.checkout-container{
+ display:flex;
+ flex-direction:column;
+ align-items: center;
+
+
+
+
+}
+
+.checkout-container h1 {
+
+    color:rgb(4, 31, 8);
+
+
+
+
+}
+
+
+
+
+
+
+.checkout-container #clear-cart {
+
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 10px;
+    
+    background-color: rgb(65, 107, 65);
+    color:rgb(244, 250, 245);
+    border: none;
+}
+
